@@ -106,13 +106,13 @@ function updateWorm() {
     x += dx;
     y += dy;
 
-    if (x > gridWidth || x  < 0) {
+    if (x > gridWidth - 1 || x  < 0) {
         //alert("GAME OVER");
         //document.location.reload();
         clearInterval(timer);
         return;
     }
-    if (y > gridHeight || y  < 0) {
+    if (y > gridHeight - 1 || y  < 0) {
         //alert("GAME OVER");
         //document.location.reload();
         clearInterval(timer);
@@ -159,4 +159,4 @@ drawHead(x,y+1);
 drawHead(x,y);
 
 
-var timer = setInterval(updateWorm, 150);
+var timer = setInterval(updateWorm, 200);
