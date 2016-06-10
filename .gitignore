@@ -1,5 +1,7 @@
 # Compiled TypeScript
-*.js 
+build
+*.js
+!gulpfile.js
 
 # Logs
 logs
