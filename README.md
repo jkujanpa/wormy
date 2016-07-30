@@ -1,2 +1,2 @@
 # wormy
-Simple worm game
+Simple worm game inspired by Nokia "matopeli"
